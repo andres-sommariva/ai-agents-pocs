@@ -1,0 +1,14 @@
+{
+  "compilerOptions": {
+    "module": "esnext",
+    "target": "esnext",
+    "strict": true,
+    "esModuleInterop": true,
+    "skipLibCheck": true,
+    "forceConsistentCasingInFileNames": true,
+    "outDir": "./dist", // Output directory for transpiled files
+    "rootDir": "./src", // Source directory for TypeScript files
+    "moduleResolution": "node"
+  },
+  "include": ["src/**/*.ts"]
+}
