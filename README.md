@@ -16,6 +16,7 @@ You can get your API key from [here](https://platform.openai.com/account/api-key
 
 - [Simple Text Completion](#simple-text-completion)
 - [FAQ Chatbot](#faq-chatbot)
+- [Summarizer Tool](#summarizer-tool)
 
 ## Simple Text Completion
 
@@ -31,6 +32,7 @@ This is a simple text completion example.
 ```bash
 tsx src/01-simple-text-completion.ts
 ```
+
 ## FAQ Chatbot
 
 Code: [src/02-faq-chatbot-a.ts](./src/02-faq-chatbot-a.ts) and [src/02-faq-chatbot-b.ts](./src/02-faq-chatbot-b.ts)
@@ -55,6 +57,7 @@ or
 ```
 tsx src/02-faq-chatbot-b.ts
 ```
+
 ### 02-faq-chatbot-a.ts
 
 This sample uses the [Agent SDK](https://openai.github.io/openai-agents-js/guides/agents/) to create a chatbot.
@@ -62,3 +65,21 @@ This sample uses the [Agent SDK](https://openai.github.io/openai-agents-js/guide
 ### 02-faq-chatbot-b.ts
 
 This sample uses the OpenAI [Response API](https://platform.openai.com/docs/api-reference/responses) to create a chatbot.
+
+## Summarizer Tool
+
+Code: [src/03-summarizer-tool.ts](./src/03-summarizer-tool.ts)
+
+This is a summarizer tool example.
+
+- Description: Enhances previous agents by accepting larger text and returning concise summaries.
+- Technical aspects: Handling longer inputs, chunking, recursive summarization.
+
+Simply, add whatever text you want to summarize in the `03-summarizer-tool.txt` text file and run the sample.  
+
+### How to run it
+
+```bash
+tsx src/03-summarizer-tool.ts
+```
+
