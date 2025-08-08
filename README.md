@@ -83,3 +83,17 @@ Simply, add whatever text you want to summarize in the `03-summarizer-tool.txt` 
 tsx src/03-summarizer-tool.ts
 ```
 
+## Structured Outputs
+
+Code: [src/04-structured-outputs.ts](./src/04-structured-outputs.ts)
+
+This is a structured output example.
+
+- Description: Builds on #1 by accepting user input and returning a structured output.
+- Technical aspects: Structured Outputs is a feature that ensures the model will always generate responses that adhere to your supplied JSON Schema.
+
+### How to run it
+
+```bash
+tsx src/04-structured-outputs.ts
+```
